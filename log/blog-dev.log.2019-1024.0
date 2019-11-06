@@ -1,0 +1,41 @@
+2019-10-24 17:24:02.644  INFO 20592 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Starting BolgApplication on DESKTOP-Q3F7UK2 with PID 20592 (C:\Users\PC\Desktop\projects\bolg\target\classes started by PC in C:\Users\PC\Desktop\projects\bolg)
+2019-10-24 17:24:02.649 DEBUG 20592 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-24 17:24:02.649  INFO 20592 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : The following profiles are active: dev
+2019-10-24 17:24:02.699  INFO 20592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-24 17:24:02.699  INFO 20592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-24 17:24:03.816  INFO 20592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 17:24:03.847  INFO 20592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-10-24 17:24:04.181  INFO 20592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da012a82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-24 17:24:04.693  INFO 20592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-24 17:24:04.715  INFO 20592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 17:24:04.716  INFO 20592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 17:24:04.726  INFO 20592 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-10-24 17:24:04.727  INFO 20592 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-10-24 17:24:04.728  INFO 20592 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-10-24 17:24:04.751  INFO 20592 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-10-24 17:24:04.931  INFO 20592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 17:24:04.932  INFO 20592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2233 ms
+2019-10-24 17:24:05.101  INFO 20592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-24 17:24:05.104  WARN 20592 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-24 17:24:05.531  INFO 20592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-24 17:24:05.594  INFO 20592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-24 17:24:05.692  INFO 20592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-24 17:24:05.694  INFO 20592 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-24 17:24:05.876  INFO 20592 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-24 17:24:06.408  INFO 20592 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-24 17:24:08.589  INFO 20592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-24 17:24:08.670  INFO 20592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 17:24:09.007  INFO 20592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 17:24:09.053  WARN 20592 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-24 17:24:09.098  INFO 20592 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 17:24:09.896  INFO 20592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 17:24:09.899  INFO 20592 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Started BolgApplication in 8.203 seconds (JVM running for 10.627)
+2019-10-24 17:24:16.234  INFO 20592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 17:24:16.235  INFO 20592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 17:24:16.260  INFO 20592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-10-24 17:24:16.400  INFO 20592 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[]}
+2019-10-24 17:24:16.401  INFO 20592 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-10-24 17:24:16.405  INFO 20592 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-10-24 17:24:16.406  INFO 20592 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index

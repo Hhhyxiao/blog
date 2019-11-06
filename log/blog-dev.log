@@ -1,0 +1,1053 @@
+2019-11-06 16:06:41.671  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Starting BolgApplication on DESKTOP-Q3F7UK2 with PID 9444 (C:\Users\PC\Desktop\projects\bolg\target\classes started by PC in C:\Users\PC\Desktop\projects\bolg)
+2019-11-06 16:06:41.677 DEBUG 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-06 16:06:41.677  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : The following profiles are active: dev
+2019-11-06 16:06:41.725  INFO 9444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-06 16:06:41.725  INFO 9444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-06 16:06:42.652  INFO 9444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 16:06:42.778  INFO 9444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114ms. Found 5 repository interfaces.
+2019-11-06 16:06:43.101  INFO 9444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0900163] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-06 16:06:43.583  INFO 9444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-06 16:06:43.608  INFO 9444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-06 16:06:43.608  INFO 9444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 16:06:43.618  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-06 16:06:43.618  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-06 16:06:43.619  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-06 16:06:43.644  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-06 16:06:43.792  INFO 9444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-06 16:06:43.792  INFO 9444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2067 ms
+2019-11-06 16:06:43.976  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-06 16:06:43.979  WARN 9444 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-06 16:06:45.153  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-06 16:06:45.220  INFO 9444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 16:06:45.308  INFO 9444 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-06 16:06:45.310  INFO 9444 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-06 16:06:45.486  INFO 9444 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-06 16:06:45.972  INFO 9444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-06 16:06:47.730  INFO 9444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 16:06:47.804  INFO 9444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-06 16:06:48.133  INFO 9444 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 16:06:48.804  INFO 9444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 16:06:48.858  WARN 9444 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-06 16:06:48.910  INFO 9444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-06 16:06:49.470  INFO 9444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-06 16:06:49.472  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Started BolgApplication in 8.329 seconds (JVM running for 10.155)
+2019-11-06 16:06:54.294  INFO 9444 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 16:06:54.295  INFO 9444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-06 16:06:54.311  INFO 9444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-11-06 16:06:54.346  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 16:06:54.348  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:06:54.450  WARN 9444 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-11-06 16:06:54.461  WARN 9444 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-11-06 16:06:54.486  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:06:54.487  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 16:11:22.541  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 16:11:22.542  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:11:22.557  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:11:22.558  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 16:11:25.864  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 16:11:25.865  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:11:26.422  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:11:26.422  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 16:12:11.455  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 16:12:11.455  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:12:11.468  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:12:11.469  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 16:12:17.518  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 16:12:17.519  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:12:17.529  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:12:17.529  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 16:12:48.464  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 16:12:48.464  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:12:48.472  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:12:48.473  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 16:13:31.703  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 16:13:31.704  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:13:31.721  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:13:31.722  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 16:14:22.867  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 16:14:22.868  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:22.884  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:22.884  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 16:14:23.529  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 16:14:23.529  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:23.543  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:23.544  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 16:14:26.995  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/9', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 9, {}]}
+2019-11-06 16:14:26.996  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:27.004  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:27.004  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 16:14:27.876  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/10', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 10, {}]}
+2019-11-06 16:14:27.878  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:27.885  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:27.886  INFO 9444 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 16:14:28.674  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/2', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2019-11-06 16:14:28.674  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:28.681  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:28.682  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 16:14:29.230  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 16:14:29.230  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:29.248  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:29.248  INFO 9444 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 16:14:30.211  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/12', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 12, {}]}
+2019-11-06 16:14:30.212  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:30.219  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:30.219  INFO 9444 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 16:14:30.660  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/11', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 11, {}]}
+2019-11-06 16:14:30.660  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:30.665  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:30.666  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 16:14:31.097  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 16:14:31.097  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:31.104  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:31.105  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 16:14:32.420  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 16:14:32.421  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:32.430  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:32.431  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 16:14:33.003  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 16:14:33.003  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:33.009  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:33.010  INFO 9444 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 16:14:38.931  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 16:14:38.932  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 16:14:38.941  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 16:14:38.942  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 17:11:31.027  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 17:11:31.028  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:11:31.042  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:11:31.042  INFO 9444 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 17:11:31.994  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.blog', args=[27, {}]}
+2019-11-06 17:11:31.994  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:11:32.586  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:11:32.587  INFO 9444 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}blog
+2019-11-06 17:11:32.898  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/comments/27', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.CommentController.comments', args=[27, {}]}
+2019-11-06 17:11:32.899  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:11:32.915  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:11:32.916  INFO 9444 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}blog :: commentList
+2019-11-06 17:50:29.229  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 17:50:29.230  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:50:29.247  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:50:29.248  INFO 9444 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 17:50:31.496  INFO 9444 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:50:31.498  INFO 9444 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:50:31.505  INFO 9444 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-06 17:50:31.519  INFO 9444 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-06 17:50:31.991  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Starting BolgApplication on DESKTOP-Q3F7UK2 with PID 9444 (C:\Users\PC\Desktop\projects\bolg\target\classes started by PC in C:\Users\PC\Desktop\projects\bolg)
+2019-11-06 17:50:31.991 DEBUG 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-06 17:50:31.991  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : The following profiles are active: dev
+2019-11-06 17:50:32.349  INFO 9444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 17:50:32.402  INFO 9444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 5 repository interfaces.
+2019-11-06 17:50:32.461  INFO 9444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0900163] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-06 17:50:32.580  INFO 9444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-06 17:50:32.582  INFO 9444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-06 17:50:32.582  INFO 9444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 17:50:32.582  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-06 17:50:32.583  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-06 17:50:32.583  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-06 17:50:32.583  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-06 17:50:32.621  INFO 9444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-06 17:50:32.621  INFO 9444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 628 ms
+2019-11-06 17:50:32.692  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-11-06 17:50:32.694  WARN 9444 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-06 17:50:32.705  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-11-06 17:50:32.731  INFO 9444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 17:50:32.937  INFO 9444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-06 17:50:33.591  INFO 9444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:50:33.629  INFO 9444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-06 17:50:33.731  INFO 9444 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 17:50:34.103  INFO 9444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:50:34.120  WARN 9444 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-06 17:50:34.147  INFO 9444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-06 17:50:34.567  INFO 9444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-06 17:50:34.568  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Started BolgApplication in 2.643 seconds (JVM running for 6235.252)
+2019-11-06 17:50:34.570  INFO 9444 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-06 17:51:49.698  INFO 9444 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 17:51:49.700  INFO 9444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-06 17:51:49.714  INFO 9444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-11-06 17:51:50.960  WARN 9444 --- [http-nio-8080-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [274] milliseconds.
+2019-11-06 17:51:54.080  INFO 9444 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:51:54.081  INFO 9444 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:51:54.083  INFO 9444 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-11-06 17:51:54.092  INFO 9444 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-11-06 17:51:54.427  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Starting BolgApplication on DESKTOP-Q3F7UK2 with PID 9444 (C:\Users\PC\Desktop\projects\bolg\target\classes started by PC in C:\Users\PC\Desktop\projects\bolg)
+2019-11-06 17:51:54.428 DEBUG 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-06 17:51:54.428  INFO 9444 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : The following profiles are active: dev
+2019-11-06 17:51:54.731  INFO 9444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 17:51:54.782  INFO 9444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 5 repository interfaces.
+2019-11-06 17:51:54.831  INFO 9444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0900163] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-06 17:51:54.924  INFO 9444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-06 17:51:54.925  INFO 9444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-06 17:51:54.925  INFO 9444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 17:51:54.926  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-06 17:51:54.926  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-06 17:51:54.926  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-06 17:51:54.926  INFO 9444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-06 17:51:54.963  INFO 9444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-06 17:51:54.963  INFO 9444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 533 ms
+2019-11-06 17:51:55.027  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-11-06 17:51:55.027  WARN 9444 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-06 17:51:55.038  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-11-06 17:51:55.062  INFO 9444 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 17:51:55.256  INFO 9444 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-06 17:51:56.718  INFO 9444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:51:56.753  INFO 9444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-06 17:51:56.848  INFO 9444 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 17:51:57.220  INFO 9444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:51:57.239  WARN 9444 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-06 17:51:57.246  WARN 9444 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'loginController' method 
+public java.lang.String com.hyxiao.bolg.web.admin.LoginController.loginPage()
+to {GET /admin}: There is already 'indexController' bean method
+public java.lang.String com.hyxiao.bolg.web.IndexController.admin(java.lang.Long,org.springframework.ui.Model) mapped.
+2019-11-06 17:51:57.246  INFO 9444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:51:57.247  INFO 9444 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:51:57.248  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-11-06 17:51:57.255  INFO 9444 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-11-06 17:51:57.256  INFO 9444 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-06 17:51:57.263  INFO 9444 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-06 17:51:57.272 ERROR 9444 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'loginController' method 
+public java.lang.String com.hyxiao.bolg.web.admin.LoginController.loginPage()
+to {GET /admin}: There is already 'indexController' bean method
+public java.lang.String com.hyxiao.bolg.web.IndexController.admin(java.lang.Long,org.springframework.ui.Model) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.hyxiao.bolg.BolgApplication.main(BolgApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'loginController' method 
+public java.lang.String com.hyxiao.bolg.web.admin.LoginController.loginPage()
+to {GET /admin}: There is already 'indexController' bean method
+public java.lang.String com.hyxiao.bolg.web.IndexController.admin(java.lang.Long,org.springframework.ui.Model) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 21 common frames omitted
+
+2019-11-06 17:52:17.715  INFO 14548 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Starting BolgApplication on DESKTOP-Q3F7UK2 with PID 14548 (C:\Users\PC\Desktop\projects\bolg\target\classes started by PC in C:\Users\PC\Desktop\projects\bolg)
+2019-11-06 17:52:17.718 DEBUG 14548 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-06 17:52:17.718  INFO 14548 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : The following profiles are active: dev
+2019-11-06 17:52:17.764  INFO 14548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-06 17:52:17.764  INFO 14548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-06 17:52:18.463  INFO 14548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 17:52:18.561  INFO 14548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 5 repository interfaces.
+2019-11-06 17:52:18.863  INFO 14548 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2480ec1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-06 17:52:19.262  INFO 14548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-06 17:52:19.282  INFO 14548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-06 17:52:19.282  INFO 14548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 17:52:19.287  INFO 14548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-06 17:52:19.288  INFO 14548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-06 17:52:19.289  INFO 14548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-06 17:52:19.292  INFO 14548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-06 17:52:19.412  INFO 14548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-06 17:52:19.413  INFO 14548 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1649 ms
+2019-11-06 17:52:19.562  INFO 14548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-06 17:52:19.564  WARN 14548 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-06 17:52:19.781  INFO 14548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-06 17:52:19.838  INFO 14548 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 17:52:19.885  INFO 14548 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-06 17:52:19.887  INFO 14548 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-06 17:52:20.010  INFO 14548 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-06 17:52:20.299  INFO 14548 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-06 17:52:21.461  INFO 14548 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:52:21.526  INFO 14548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-06 17:52:21.822  INFO 14548 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 17:52:22.474  INFO 14548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:52:22.517  WARN 14548 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-06 17:52:22.543  WARN 14548 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'loginController' method 
+public java.lang.String com.hyxiao.bolg.web.admin.LoginController.loginPage()
+to {GET /admin}: There is already 'indexController' bean method
+public java.lang.String com.hyxiao.bolg.web.IndexController.admin(java.lang.Long,org.springframework.ui.Model) mapped.
+2019-11-06 17:52:22.543  INFO 14548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:52:22.545  INFO 14548 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:52:22.547  INFO 14548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-06 17:52:22.559  INFO 14548 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-11-06 17:52:22.560  INFO 14548 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-06 17:52:22.571  INFO 14548 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-06 17:52:22.579 ERROR 14548 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'loginController' method 
+public java.lang.String com.hyxiao.bolg.web.admin.LoginController.loginPage()
+to {GET /admin}: There is already 'indexController' bean method
+public java.lang.String com.hyxiao.bolg.web.IndexController.admin(java.lang.Long,org.springframework.ui.Model) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.hyxiao.bolg.BolgApplication.main(BolgApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'loginController' method 
+public java.lang.String com.hyxiao.bolg.web.admin.LoginController.loginPage()
+to {GET /admin}: There is already 'indexController' bean method
+public java.lang.String com.hyxiao.bolg.web.IndexController.admin(java.lang.Long,org.springframework.ui.Model) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:619)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:587)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:313)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:283)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:253)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:200)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 21 common frames omitted
+
+2019-11-06 17:55:20.229  INFO 6000 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Starting BolgApplication on DESKTOP-Q3F7UK2 with PID 6000 (C:\Users\PC\Desktop\projects\bolg\target\classes started by PC in C:\Users\PC\Desktop\projects\bolg)
+2019-11-06 17:55:20.231 DEBUG 6000 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-06 17:55:20.232  INFO 6000 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : The following profiles are active: dev
+2019-11-06 17:55:20.274  INFO 6000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-06 17:55:20.274  INFO 6000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-06 17:55:20.979  INFO 6000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-06 17:55:21.081  INFO 6000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 5 repository interfaces.
+2019-11-06 17:55:21.372  INFO 6000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ca6802d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-06 17:55:21.749  INFO 6000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-06 17:55:21.770  INFO 6000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-06 17:55:21.771  INFO 6000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-11-06 17:55:21.777  INFO 6000 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-06 17:55:21.778  INFO 6000 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-06 17:55:21.778  INFO 6000 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-06 17:55:21.781  INFO 6000 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-06 17:55:21.909  INFO 6000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-06 17:55:21.910  INFO 6000 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1635 ms
+2019-11-06 17:55:22.059  INFO 6000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-06 17:55:22.061  WARN 6000 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-11-06 17:55:22.277  INFO 6000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-06 17:55:22.332  INFO 6000 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 17:55:22.376  INFO 6000 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-11-06 17:55:22.377  INFO 6000 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-11-06 17:55:22.479  INFO 6000 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-06 17:55:22.752  INFO 6000 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-06 17:55:24.196  INFO 6000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 17:55:24.259  INFO 6000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-06 17:55:24.530  INFO 6000 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 17:55:25.089  INFO 6000 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-06 17:55:25.131  WARN 6000 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-06 17:55:25.178  INFO 6000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-06 17:55:25.695  INFO 6000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-06 17:55:25.698  INFO 6000 --- [restartedMain] com.hyxiao.bolg.BolgApplication          : Started BolgApplication in 5.994 seconds (JVM running for 7.016)
+2019-11-06 17:55:28.800  INFO 6000 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-06 17:55:28.801  INFO 6000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-06 17:55:28.817  INFO 6000 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-11-06 17:55:28.862  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 17:55:28.862  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:55:28.951  WARN 6000 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-11-06 17:55:28.963  WARN 6000 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2019-11-06 17:55:28.970  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:55:28.970  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 17:55:36.737  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 17:55:36.738  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:55:36.751  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:55:36.751  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 17:56:01.493 ERROR 6000 --- [http-nio-8080-exec-1] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 17:56:01.495  WARN 6000 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 17:56:05.016  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 17:56:05.017  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:56:05.031  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:56:05.031  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 17:56:06.255 ERROR 6000 --- [http-nio-8080-exec-9] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 17:56:06.257  WARN 6000 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 17:57:54.478  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 17:57:54.478  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 17:57:54.489  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 17:57:54.489  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 17:57:57.479 ERROR 6000 --- [http-nio-8080-exec-8] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 17:57:57.481  WARN 6000 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:14:48.535  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:14:48.535  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:14:48.546  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:14:48.546  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:14:56.939 ERROR 6000 --- [http-nio-8080-exec-8] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 18:14:56.941  WARN 6000 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:16:47.860  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:16:47.861  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:16:47.876  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:16:47.876  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:16:48.719 ERROR 6000 --- [http-nio-8080-exec-2] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 18:16:48.720  WARN 6000 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:18:42.605 ERROR 6000 --- [http-nio-8080-exec-7] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 18:18:42.606  WARN 6000 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:18:47.888  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:18:47.888  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:18:47.901  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:18:47.902  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:18:48.803 ERROR 6000 --- [http-nio-8080-exec-7] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 18:18:48.804  WARN 6000 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:18:52.314  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:18:52.315  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:18:52.326  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:18:52.326  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:18:53.344 ERROR 6000 --- [http-nio-8080-exec-8] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 18:18:53.345  WARN 6000 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:18:59.971 ERROR 6000 --- [http-nio-8080-exec-10] c.h.b.h.ControllerExceptionHandler       : Request URL: http://localhost:8080/admin/login, Exception: {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:402)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-11-06 18:18:59.972  WARN 6000 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-11-06 18:22:08.097  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:22:08.097  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:22:08.107  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:22:08.107  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:22:10.558  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:22:10.559  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:22:10.571  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:22:10.571  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:22:20.521  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:22:20.522  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:22:20.533  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:22:20.533  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:22:26.694  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/blog/28', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.blog', args=[28, {}]}
+2019-11-06 18:22:26.695  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:22:26.764  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:22:26.764  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Result : {}blog
+2019-11-06 18:22:27.039  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/comments/28', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.CommentController.comments', args=[28, {}]}
+2019-11-06 18:22:27.039  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:22:27.068  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:22:27.068  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Result : {}blog :: commentList
+2019-11-06 18:48:52.119  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:48:52.120  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:48:52.138  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:48:52.138  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:48:54.229  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:48:54.229  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:48:54.239  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:48:54.239  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:49:04.613  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:49:04.614  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:49:04.623  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:49:04.624  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:49:22.996  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:49:22.997  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:49:23.007  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:49:23.007  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:49:38.665  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:49:38.666  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:49:38.676  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:49:38.676  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:49:52.508  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:49:52.509  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:49:52.519  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:49:52.519  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:50:06.727  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:50:06.728  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:50:06.737  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:50:06.738  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:50:13.610  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/blog/28', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.blog', args=[28, {}]}
+2019-11-06 18:50:13.611  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:50:13.636  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:50:13.636  INFO 6000 --- [http-nio-8080-exec-3] com.hyxiao.bolg.aspect.LogAspect         : Result : {}blog
+2019-11-06 18:50:13.893  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/comments/28', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.CommentController.comments', args=[28, {}]}
+2019-11-06 18:50:13.893  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:50:13.908  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:50:13.908  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}blog :: commentList
+2019-11-06 18:50:24.675  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/about', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.AboutShowController.about', args=[]}
+2019-11-06 18:50:24.675  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:50:24.678  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:50:24.678  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}about
+2019-11-06 18:53:17.515  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/about', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.AboutShowController.about', args=[]}
+2019-11-06 18:53:17.515  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:53:17.517  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:53:17.517  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}about
+2019-11-06 18:53:26.572  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 18:53:26.572  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:53:26.586  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:53:26.586  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 18:53:27.194  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:53:27.194  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:53:27.212  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:53:27.212  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 18:53:27.848  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:53:27.849  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:53:27.856  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:53:27.856  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 18:53:34.169  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:53:34.170  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:53:34.177  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:53:34.177  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:54:09.674  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/about', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.AboutShowController.about', args=[]}
+2019-11-06 18:54:09.675  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:09.675  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:09.675  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}about
+2019-11-06 18:54:10.810  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 18:54:10.811  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:10.819  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:10.820  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 18:54:11.331  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/about', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.AboutShowController.about', args=[]}
+2019-11-06 18:54:11.331  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:11.331  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:11.331  INFO 6000 --- [http-nio-8080-exec-1] com.hyxiao.bolg.aspect.LogAspect         : Result : {}about
+2019-11-06 18:54:12.330  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:54:12.331  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:12.337  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:12.337  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 18:54:12.747  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:54:12.747  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:12.753  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:12.753  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 18:54:13.499  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:54:13.499  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:13.507  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:13.507  INFO 6000 --- [http-nio-8080-exec-7] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:54:14.305  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/about', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.AboutShowController.about', args=[]}
+2019-11-06 18:54:14.305  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:14.305  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:14.306  INFO 6000 --- [http-nio-8080-exec-4] com.hyxiao.bolg.aspect.LogAspect         : Result : {}about
+2019-11-06 18:54:26.752  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.ArchiveShowController.archives', args=[{}]}
+2019-11-06 18:54:26.753  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:26.766  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:26.766  INFO 6000 --- [http-nio-8080-exec-2] com.hyxiao.bolg.aspect.LogAspect         : Result : {}archives
+2019-11-06 18:54:27.699  INFO 6000 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:54:27.700  INFO 6000 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:27.705  INFO 6000 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:27.705  INFO 6000 --- [http-nio-8080-exec-8] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 18:54:28.533  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:54:28.534  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:28.540  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:28.540  INFO 6000 --- [http-nio-8080-exec-10] com.hyxiao.bolg.aspect.LogAspect         : Result : {}types
+2019-11-06 18:54:40.160  INFO 6000 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2019-11-06 18:54:40.161  INFO 6000 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:40.168  INFO 6000 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:40.168  INFO 6000 --- [http-nio-8080-exec-6] com.hyxiao.bolg.aspect.LogAspect         : Result : {}tags
+2019-11-06 18:54:41.318  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-11-06 18:54:41.319  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:41.326  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:41.326  INFO 6000 --- [http-nio-8080-exec-5] com.hyxiao.bolg.aspect.LogAspect         : Result : {}index
+2019-11-06 18:54:44.407  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Request : RequestLog{url='/about', ip='0:0:0:0:0:0:0:1', classMethod='com.hyxiao.bolg.web.AboutShowController.about', args=[]}
+2019-11-06 18:54:44.408  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doBefore-------
+2019-11-06 18:54:44.408  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : --------doAfter--------
+2019-11-06 18:54:44.408  INFO 6000 --- [http-nio-8080-exec-9] com.hyxiao.bolg.aspect.LogAspect         : Result : {}about
+2019-11-06 19:11:02.015  INFO 6000 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-06 19:11:02.017  INFO 6000 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-06 19:11:02.023  INFO 6000 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-06 19:11:02.026  INFO 6000 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
